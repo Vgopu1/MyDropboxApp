@@ -14,6 +14,10 @@
 		035E2AB31BCB58FA004F43B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035E2AB11BCB58FA004F43B3 /* LaunchScreen.storyboard */; };
 		035E2ABE1BCB58FA004F43B3 /* MyDropboxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2ABD1BCB58FA004F43B3 /* MyDropboxAppTests.swift */; };
 		035E2AC91BCB58FA004F43B3 /* MyDropboxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2AC81BCB58FA004F43B3 /* MyDropboxAppUITests.swift */; };
+		035E2AD71BCCD2EA004F43B3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2AD61BCCD2EA004F43B3 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		035E2AD91BCCD57A004F43B3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2AD81BCCD57A004F43B3 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		035E2ADB1BCCE6AD004F43B3 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2ADA1BCCE6AD004F43B3 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		035E2ADD1BCCF451004F43B3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E2ADC1BCCF451004F43B3 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		035E2AC41BCB58FA004F43B3 /* MyDropboxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDropboxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E2AC81BCB58FA004F43B3 /* MyDropboxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropboxAppUITests.swift; sourceTree = "<group>"; };
 		035E2ACA1BCB58FA004F43B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035E2AD61BCCD2EA004F43B3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		035E2AD81BCCD57A004F43B3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		035E2ADA1BCCE6AD004F43B3 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		035E2ADC1BCCF451004F43B3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		035E2A9C1BCB58FA004F43B3 = {
 			isa = PBXGroup;
 			children = (
+				035E2ADC1BCCF451004F43B3 /* SettingsViewController.swift */,
 				035E2AA71BCB58FA004F43B3 /* MyDropboxApp */,
 				035E2ABC1BCB58FA004F43B3 /* MyDropboxAppTests */,
 				035E2AC71BCB58FA004F43B3 /* MyDropboxAppUITests */,
@@ -100,6 +109,9 @@
 				035E2AA81BCB58FA004F43B3 /* AppDelegate.swift */,
 				035E2AAA1BCB58FA004F43B3 /* ViewController.swift */,
 				035E2AAC1BCB58FA004F43B3 /* Main.storyboard */,
+				035E2ADA1BCCE6AD004F43B3 /* TermsViewController.swift */,
+				035E2AD81BCCD57A004F43B3 /* SignInViewController.swift */,
+				035E2AD61BCCD2EA004F43B3 /* CreateAccountViewController.swift */,
 				035E2AAF1BCB58FA004F43B3 /* Assets.xcassets */,
 				035E2AB11BCB58FA004F43B3 /* LaunchScreen.storyboard */,
 				035E2AB41BCB58FA004F43B3 /* Info.plist */,
@@ -255,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035E2AD91BCCD57A004F43B3 /* SignInViewController.swift in Sources */,
+				035E2AD71BCCD2EA004F43B3 /* CreateAccountViewController.swift in Sources */,
 				035E2AAB1BCB58FA004F43B3 /* ViewController.swift in Sources */,
 				035E2AA91BCB58FA004F43B3 /* AppDelegate.swift in Sources */,
+				035E2ADB1BCCE6AD004F43B3 /* TermsViewController.swift in Sources */,
+				035E2ADD1BCCF451004F43B3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
